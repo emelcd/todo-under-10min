@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+}
+
+.notes {
+  background-color: rgb(190, 190, 190);
+  padding: 1em;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(0, 0, 0);
+  width: 20%;
+  min-width: fit-content;
+  margin: 1rem;
+  word-wrap: break-word;
+}
+
+.input-text {
+  font-size: 1.5vmin;
+  padding: 0.5vmin 0;
+  margin: 0.5vmin 0;
+  border: 0.5vmin solid #ccc;
+  border-radius: 0.5vmin;
+  background-color: #f5f5f5;
+  color: #555;
+  outline: 0;
+  width: 50vmin;
+  transition: border-color 0.3s ease-in-out;
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+}
+
+.text-content {
+  font-size: 2.5vmin;
+  padding: 0.5vmin 0;
+  margin: 0.5vmin 0;
+  border-radius: 0.5vmin;
+  color: rgb(190, 190, 190);
+  outline: 0;
+  width: 50vmin;
+  transition: border-color 0.3s ease-in-out;
+  font-family: monospace;
+}
